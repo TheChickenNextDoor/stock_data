@@ -7,6 +7,7 @@ def home(request):
 	import requests
 	import json
 
+	#Getting external API data; the key/token's public
 	if request.method == 'POST':
 		ticker = request.POST['ticker']
 		#pk_fc90ce6a35174b1aaf9a02f0acaf3db2
